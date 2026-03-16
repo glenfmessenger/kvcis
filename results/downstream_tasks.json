@@ -1,0 +1,72 @@
+{
+  "description": "Table 2: Downstream task performance",
+  "model": "meta-llama/Llama-3.1-8B-Instruct",
+  "n_samples": 50,
+  "tasks": {
+    "narrativeqa": {
+      "metric": "f1",
+      "results": [
+        {
+          "method": "Baseline",
+          "memory_reduction_pct": 0,
+          "score": 0.0642,
+          "score_change_pct": 0
+        },
+        {
+          "method": "Uniform-INT8",
+          "memory_reduction_pct": 50,
+          "score": 0.0592,
+          "score_change_pct": -7.8
+        },
+        {
+          "method": "StreamingLLM",
+          "memory_reduction_pct": 37,
+          "score": 0.0592,
+          "score_change_pct": -7.8
+        },
+        {
+          "method": "H2O",
+          "memory_reduction_pct": 40,
+          "score": 0.0642,
+          "score_change_pct": 0
+        },
+        {
+          "method": "KVCIS",
+          "memory_reduction_pct": 50,
+          "score": 0.0642,
+          "score_change_pct": 0
+        }
+      ]
+    },
+    "passkey_retrieval": {
+      "metric": "accuracy",
+      "results": [
+        {
+          "method": "Baseline",
+          "memory_reduction_pct": 0,
+          "score": 1.0
+        },
+        {
+          "method": "Uniform-INT8",
+          "memory_reduction_pct": 50,
+          "score": 1.0
+        },
+        {
+          "method": "StreamingLLM",
+          "memory_reduction_pct": 45,
+          "score": 1.0
+        },
+        {
+          "method": "H2O",
+          "memory_reduction_pct": 40,
+          "score": 1.0
+        },
+        {
+          "method": "KVCIS",
+          "memory_reduction_pct": 50,
+          "score": 1.0
+        }
+      ]
+    }
+  }
+}

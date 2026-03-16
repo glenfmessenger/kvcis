@@ -1,0 +1,38 @@
+{
+  "description": "Table 4: Cross-model validation",
+  "extraction_layer_ratio": 0.375,
+  "results": [
+    {
+      "model": "meta-llama/Llama-3.1-8B-Instruct",
+      "n_layers": 32,
+      "extraction_layer": 12,
+      "extraction_layer_pct": 37.5,
+      "r2_score": 0.999,
+      "ppl_change_pct": -0.12,
+      "memory_reduction_pct": 45
+    },
+    {
+      "model": "mistralai/Mistral-7B-Instruct-v0.3",
+      "n_layers": 32,
+      "extraction_layer": 12,
+      "extraction_layer_pct": 37.5,
+      "r2_score": 0.996,
+      "ppl_change_pct": -0.03,
+      "memory_reduction_pct": 45
+    },
+    {
+      "model": "google/gemma-2-9b-it",
+      "n_layers": 42,
+      "extraction_layer": 16,
+      "extraction_layer_pct": 38.1,
+      "r2_score": 0.996,
+      "ppl_change_pct": -0.32,
+      "memory_reduction_pct": 45
+    }
+  ],
+  "notes": {
+    "r2_interpretation": "R² > 0.99 indicates probe successfully identifies BOS token as maximally important",
+    "content_token_r2": "R² = 0.68-0.79 for content-only prediction (excluding BOS)",
+    "optimal_layer": "37-38% depth consistently optimal across architectures"
+  }
+}

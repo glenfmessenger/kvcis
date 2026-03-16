@@ -1,0 +1,55 @@
+{
+  "description": "Table 1: Baseline comparison on Llama-3.1-8B-Instruct",
+  "context_length": 256,
+  "n_samples": 19,
+  "model": "meta-llama/Llama-3.1-8B-Instruct",
+  "results": [
+    {
+      "method": "Baseline",
+      "memory_reduction_pct": 0,
+      "perplexity": 27.62,
+      "ppl_change_pct": 0,
+      "prefill_ms": 64.6
+    },
+    {
+      "method": "Uniform-INT8",
+      "memory_reduction_pct": 50,
+      "perplexity": 28.84,
+      "ppl_change_pct": 4.40,
+      "prefill_ms": 36.7
+    },
+    {
+      "method": "StreamingLLM-10",
+      "memory_reduction_pct": 1.2,
+      "perplexity": 27.66,
+      "ppl_change_pct": 0.15,
+      "n_sink": 4,
+      "recent_window": 10,
+      "prefill_ms": 36.4
+    },
+    {
+      "method": "H2O-10",
+      "memory_reduction_pct": 45.1,
+      "perplexity": 27.74,
+      "ppl_change_pct": 0.42,
+      "keep_ratio": 0.1,
+      "prefill_ms": 37.8
+    },
+    {
+      "method": "H2O-20",
+      "memory_reduction_pct": 41.5,
+      "perplexity": 27.63,
+      "ppl_change_pct": 0.04,
+      "keep_ratio": 0.2,
+      "prefill_ms": 37.8
+    },
+    {
+      "method": "KVCIS",
+      "memory_reduction_pct": 45.2,
+      "perplexity": 27.78,
+      "ppl_change_pct": 0.57,
+      "high_threshold": 0.9,
+      "prefill_ms": 37.6
+    }
+  ]
+}

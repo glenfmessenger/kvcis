@@ -1,0 +1,45 @@
+{
+  "description": "Table 3: Long-context validation",
+  "model": "meta-llama/Llama-3.1-8B-Instruct",
+  "n_samples_per_length": 10,
+  "results": [
+    {
+      "context_length": 256,
+      "methods": [
+        {"method": "Baseline", "memory_reduction_pct": 0, "perplexity": 27.62, "ppl_change_pct": 0},
+        {"method": "Uniform-INT8", "memory_reduction_pct": 50, "perplexity": 28.84, "ppl_change_pct": 4.40},
+        {"method": "KVCIS", "memory_reduction_pct": 45, "perplexity": 27.78, "ppl_change_pct": 0.57}
+      ]
+    },
+    {
+      "context_length": 512,
+      "methods": [
+        {"method": "Baseline", "memory_reduction_pct": 0, "perplexity": 9.457, "ppl_change_pct": 0},
+        {"method": "Uniform-INT8", "memory_reduction_pct": 50, "perplexity": 9.457, "ppl_change_pct": 0},
+        {"method": "KVCIS", "memory_reduction_pct": 50, "perplexity": 9.457, "ppl_change_pct": 0}
+      ]
+    },
+    {
+      "context_length": 1024,
+      "methods": [
+        {"method": "Baseline", "memory_reduction_pct": 0, "perplexity": 7.364, "ppl_change_pct": 0},
+        {"method": "Uniform-INT8", "memory_reduction_pct": 50, "perplexity": 7.399, "ppl_change_pct": 0.47},
+        {"method": "KVCIS", "memory_reduction_pct": 50, "perplexity": 7.359, "ppl_change_pct": -0.07}
+      ]
+    },
+    {
+      "context_length": 2048,
+      "methods": [
+        {"method": "Baseline", "memory_reduction_pct": 0, "perplexity": 6.169, "ppl_change_pct": 0},
+        {"method": "Uniform-INT8", "memory_reduction_pct": 50, "perplexity": 6.214, "ppl_change_pct": 0.73},
+        {"method": "KVCIS", "memory_reduction_pct": 50, "perplexity": 6.177, "ppl_change_pct": 0.14}
+      ]
+    }
+  ],
+  "kvcis_advantage_summary": [
+    {"context_length": 256, "kvcis_ppl_delta": 0.57, "uniform_ppl_delta": 4.40, "advantage_multiplier": 7.7},
+    {"context_length": 512, "kvcis_ppl_delta": 0, "uniform_ppl_delta": 0, "advantage_multiplier": 1.0},
+    {"context_length": 1024, "kvcis_ppl_delta": -0.07, "uniform_ppl_delta": 0.47, "advantage_multiplier": 6.7},
+    {"context_length": 2048, "kvcis_ppl_delta": 0.14, "uniform_ppl_delta": 0.73, "advantage_multiplier": 5.2}
+  ]
+}
