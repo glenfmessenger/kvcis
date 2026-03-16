@@ -1,0 +1,520 @@
+# KVCIS Training Prompts
+# 500 prompts across 4 categories for importance probe training
+# Format: [CATEGORY] prompt text
+
+# =============================================================================
+# GENERAL TEXT (125 prompts) - OpenWebText-style general content
+# =============================================================================
+
+[GENERAL] The history of artificial intelligence began in antiquity, with myths and stories of artificial beings endowed with intelligence
+[GENERAL] In recent years, machine learning has transformed how we approach complex problems in science and engineering
+[GENERAL] The global economy faces unprecedented challenges as technology continues to reshape traditional industries
+[GENERAL] Climate change represents one of the most significant threats to human civilization in the 21st century
+[GENERAL] The development of quantum computing promises to revolutionize cryptography and drug discovery
+[GENERAL] Social media platforms have fundamentally altered how people communicate and consume information
+[GENERAL] The rise of electric vehicles is accelerating the transition away from fossil fuels
+[GENERAL] Advances in biotechnology are enabling new treatments for previously incurable diseases
+[GENERAL] The gig economy has created new opportunities while raising questions about worker protections
+[GENERAL] Space exploration is entering a new era with private companies joining government agencies
+[GENERAL] The debate over artificial general intelligence continues to divide researchers and ethicists
+[GENERAL] Renewable energy sources are becoming increasingly cost-competitive with traditional power generation
+[GENERAL] The future of work is being shaped by automation and artificial intelligence
+[GENERAL] Cybersecurity threats are growing more sophisticated as digital infrastructure expands
+[GENERAL] The pandemic accelerated digital transformation across virtually every industry sector
+[GENERAL] Blockchain technology has applications beyond cryptocurrency in supply chain and identity management
+[GENERAL] The ethics of facial recognition technology are being debated by policymakers worldwide
+[GENERAL] Autonomous vehicles promise to reduce accidents while raising liability questions
+[GENERAL] The democratization of AI tools is enabling smaller companies to compete with tech giants
+[GENERAL] Mental health awareness has increased significantly in recent years
+[GENERAL] The streaming revolution has transformed the entertainment industry's business model
+[GENERAL] Remote work has changed expectations around office culture and work-life balance
+[GENERAL] The shortage of semiconductors has highlighted vulnerabilities in global supply chains
+[GENERAL] Gene editing technologies like CRISPR are raising profound ethical questions
+[GENERAL] The metaverse concept is driving investment in virtual and augmented reality
+[GENERAL] Data privacy regulations are becoming stricter as consumers demand more control
+[GENERAL] The creator economy has emerged as a significant economic force
+[GENERAL] Nuclear fusion research has achieved several breakthrough milestones recently
+[GENERAL] The future of education is being shaped by online learning platforms
+[GENERAL] Sustainable investing has grown from niche to mainstream in financial markets
+[GENERAL] The rise of populism has reshaped political landscapes across many countries
+[GENERAL] Telemedicine adoption has accelerated dramatically in recent years
+[GENERAL] The housing affordability crisis affects major cities around the world
+[GENERAL] Artificial intelligence is being applied to climate modeling and prediction
+[GENERAL] The future of transportation includes hyperloop and urban air mobility concepts
+[GENERAL] Digital currencies issued by central banks are being explored globally
+[GENERAL] The longevity research field is attracting significant investment and attention
+[GENERAL] Food technology innovations aim to create more sustainable protein sources
+[GENERAL] The commercialization of space is creating new industries and opportunities
+[GENERAL] Neurotechnology advances are enabling new brain-computer interfaces
+[GENERAL] The geopolitics of technology has become a major factor in international relations
+[GENERAL] Precision agriculture is using AI and sensors to optimize crop production
+[GENERAL] The evolution of programming languages reflects changing computing paradigms
+[GENERAL] Smart city initiatives are deploying IoT sensors for urban management
+[GENERAL] The future of retail combines physical and digital shopping experiences
+[GENERAL] Advances in materials science are enabling new product possibilities
+[GENERAL] The attention economy has profound implications for mental health and society
+[GENERAL] Robotic process automation is transforming back-office business operations
+[GENERAL] The circular economy concept is gaining traction in manufacturing
+[GENERAL] Personalized medicine is leveraging genetic information for treatments
+[GENERAL] The future of agriculture includes vertical farming and controlled environments
+[GENERAL] Edge computing is bringing processing power closer to data sources
+[GENERAL] The sharing economy continues to disrupt traditional business models
+[GENERAL] Advances in battery technology are enabling new applications and products
+[GENERAL] The future of journalism is being shaped by digital platforms and AI
+[GENERAL] Synthetic biology is creating new possibilities in medicine and manufacturing
+[GENERAL] The evolution of social norms around technology use continues to unfold
+[GENERAL] Quantum sensing technologies promise unprecedented measurement precision
+[GENERAL] The future of money includes digital wallets and decentralized finance
+[GENERAL] Advances in robotics are enabling new applications in healthcare and manufacturing
+[GENERAL] The psychology of misinformation is being studied intensively
+[GENERAL] Carbon capture technologies are being developed to address climate change
+[GENERAL] The future of cities includes resilience planning and smart infrastructure
+[GENERAL] Advances in photonics are enabling new computing and communication technologies
+[GENERAL] The economics of attention are reshaping media and advertising industries
+[GENERAL] Biometric authentication is becoming more prevalent in security applications
+[GENERAL] The future of healthcare includes AI-assisted diagnosis and treatment
+[GENERAL] Advances in 3D printing are enabling new manufacturing possibilities
+[GENERAL] The psychology of social media use is being researched extensively
+[GENERAL] Green hydrogen is emerging as a potential clean energy carrier
+[GENERAL] The future of finance includes embedded and decentralized options
+[GENERAL] Advances in natural language processing are enabling new applications
+[GENERAL] The sociology of remote work is being studied as practices evolve
+[GENERAL] Direct air capture of carbon dioxide is being scaled up
+[GENERAL] The future of mobility includes multimodal and on-demand options
+[GENERAL] Advances in computer vision are enabling new automation possibilities
+[GENERAL] The economics of cloud computing continue to evolve
+[GENERAL] Solid-state batteries promise improved performance for electric vehicles
+[GENERAL] The future of entertainment includes immersive and interactive experiences
+[GENERAL] Advances in speech recognition are enabling new accessibility features
+[GENERAL] The philosophy of artificial intelligence raises profound questions
+[GENERAL] Modular construction techniques are being adopted more widely
+[GENERAL] The future of logistics includes autonomous delivery vehicles
+[GENERAL] Advances in recommendation systems shape what content people see
+[GENERAL] The ethics of algorithmic decision-making are being debated
+[GENERAL] Hydrogen fuel cells are being deployed in transportation applications
+[GENERAL] The future of manufacturing includes digital twins and smart factories
+[GENERAL] Advances in reinforcement learning are enabling new AI capabilities
+[GENERAL] The sociology of online communities continues to evolve
+[GENERAL] Small modular nuclear reactors are being developed for deployment
+[GENERAL] The future of communication includes augmented reality interfaces
+[GENERAL] Advances in generative AI are transforming creative industries
+[GENERAL] The psychology of online behavior is complex and multifaceted
+[GENERAL] Perovskite solar cells promise improved efficiency and lower costs
+[GENERAL] The future of fashion includes sustainable and personalized options
+[GENERAL] Advances in federated learning enable privacy-preserving AI training
+[GENERAL] The economics of subscription services continue to evolve
+[GENERAL] Superconducting materials research continues to advance
+[GENERAL] The future of sports includes data analytics and wearable technology
+[GENERAL] Advances in transfer learning reduce data requirements for AI
+[GENERAL] The sociology of digital identity is being studied extensively
+[GENERAL] Metamaterials enable new optical and acoustic properties
+[GENERAL] The future of dining includes automation and personalization
+[GENERAL] Advances in attention mechanisms have transformed deep learning
+[GENERAL] The psychology of digital detox and screen time management
+[GENERAL] Topological materials offer new possibilities for electronics
+[GENERAL] The future of travel includes sustainable and experiential options
+[GENERAL] Advances in multimodal AI combine different types of data
+[GENERAL] The economics of platform businesses continue to evolve
+[GENERAL] Neuromorphic computing mimics brain-like processing
+[GENERAL] The future of beauty includes personalized and clean products
+[GENERAL] Advances in few-shot learning reduce training data needs
+[GENERAL] The sociology of influencer culture continues to evolve
+[GENERAL] Programmable matter concepts are being explored in research
+[GENERAL] The future of wellness includes personalized and preventive approaches
+[GENERAL] Advances in self-supervised learning reduce labeling requirements
+[GENERAL] The psychology of FOMO and social comparison online
+[GENERAL] Biodegradable electronics are being developed for sustainability
+[GENERAL] The future of pet care includes technology and premium products
+
+# =============================================================================
+# INSTRUCTIONS (125 prompts) - Alpaca-style instruction-following
+# =============================================================================
+
+[INSTRUCTION] Explain the difference between machine learning and deep learning
+[INSTRUCTION] Write a function to calculate the factorial of a number
+[INSTRUCTION] Summarize the key points of climate change mitigation strategies
+[INSTRUCTION] Compare and contrast renewable energy sources
+[INSTRUCTION] Describe the process of photosynthesis in plants
+[INSTRUCTION] Explain how vaccines work to protect against disease
+[INSTRUCTION] Write a brief introduction for a presentation on AI ethics
+[INSTRUCTION] List the main causes of the French Revolution
+[INSTRUCTION] Explain the concept of supply and demand in economics
+[INSTRUCTION] Describe the water cycle and its importance
+[INSTRUCTION] Write a professional email requesting a meeting
+[INSTRUCTION] Explain the difference between HTTP and HTTPS
+[INSTRUCTION] Summarize the plot of Shakespeare's Hamlet
+[INSTRUCTION] Describe the structure of DNA and its function
+[INSTRUCTION] Explain how blockchain technology works
+[INSTRUCTION] Write a cover letter for a software engineering position
+[INSTRUCTION] Compare different programming paradigms
+[INSTRUCTION] Explain the greenhouse effect and its consequences
+[INSTRUCTION] Describe the process of cellular respiration
+[INSTRUCTION] Write a product description for a smartphone
+[INSTRUCTION] Explain the theory of relativity in simple terms
+[INSTRUCTION] Summarize the key events of World War II
+[INSTRUCTION] Describe the human digestive system
+[INSTRUCTION] Explain how neural networks learn from data
+[INSTRUCTION] Write a recipe for chocolate chip cookies
+[INSTRUCTION] Compare different types of renewable energy
+[INSTRUCTION] Explain the concept of natural selection
+[INSTRUCTION] Describe the structure of an atom
+[INSTRUCTION] Write a business plan executive summary
+[INSTRUCTION] Explain how GPS technology works
+[INSTRUCTION] Summarize the principles of object-oriented programming
+[INSTRUCTION] Describe the human immune system
+[INSTRUCTION] Explain the difference between RAM and ROM
+[INSTRUCTION] Write a press release for a product launch
+[INSTRUCTION] Compare different database management systems
+[INSTRUCTION] Explain the process of nuclear fission
+[INSTRUCTION] Describe the layers of the Earth's atmosphere
+[INSTRUCTION] Write a user manual for a coffee maker
+[INSTRUCTION] Explain the concept of compound interest
+[INSTRUCTION] Summarize the causes of the Great Depression
+[INSTRUCTION] Describe the human respiratory system
+[INSTRUCTION] Explain how search engines rank web pages
+[INSTRUCTION] Write a job description for a data scientist
+[INSTRUCTION] Compare different cloud computing service models
+[INSTRUCTION] Explain the process of protein synthesis
+[INSTRUCTION] Describe the structure of the human brain
+[INSTRUCTION] Write a terms of service agreement outline
+[INSTRUCTION] Explain the difference between TCP and UDP
+[INSTRUCTION] Summarize the key concepts of quantum mechanics
+[INSTRUCTION] Describe the process of evolution by natural selection
+[INSTRUCTION] Explain how encryption protects data
+[INSTRUCTION] Write a marketing plan for a new product
+[INSTRUCTION] Compare different machine learning algorithms
+[INSTRUCTION] Explain the carbon cycle and its importance
+[INSTRUCTION] Describe the human cardiovascular system
+[INSTRUCTION] Write a technical specification document
+[INSTRUCTION] Explain the concept of recursion in programming
+[INSTRUCTION] Summarize the Industrial Revolution's impact
+[INSTRUCTION] Describe the process of mitosis and meiosis
+[INSTRUCTION] Explain how recommendation systems work
+[INSTRUCTION] Write a project proposal for a mobile app
+[INSTRUCTION] Compare different software development methodologies
+[INSTRUCTION] Explain the nitrogen cycle in ecosystems
+[INSTRUCTION] Describe the human nervous system
+[INSTRUCTION] Write a privacy policy for a website
+[INSTRUCTION] Explain the difference between SQL and NoSQL
+[INSTRUCTION] Summarize the Renaissance period in Europe
+[INSTRUCTION] Describe the process of nuclear fusion
+[INSTRUCTION] Explain how containerization works in software
+[INSTRUCTION] Write a grant proposal for research funding
+[INSTRUCTION] Compare different authentication methods
+[INSTRUCTION] Explain the rock cycle in geology
+[INSTRUCTION] Describe the human endocrine system
+[INSTRUCTION] Write a standard operating procedure document
+[INSTRUCTION] Explain the concept of API design principles
+[INSTRUCTION] Summarize the Cold War and its effects
+[INSTRUCTION] Describe the process of plate tectonics
+[INSTRUCTION] Explain how version control systems work
+[INSTRUCTION] Write a white paper on cybersecurity best practices
+[INSTRUCTION] Compare different network protocols
+[INSTRUCTION] Explain the phosphorus cycle in nature
+[INSTRUCTION] Describe the human musculoskeletal system
+[INSTRUCTION] Write an incident response plan outline
+[INSTRUCTION] Explain the difference between threading and multiprocessing
+[INSTRUCTION] Summarize the Age of Exploration
+[INSTRUCTION] Describe the electromagnetic spectrum
+[INSTRUCTION] Explain how load balancing works
+[INSTRUCTION] Write a disaster recovery plan outline
+[INSTRUCTION] Compare different virtualization technologies
+[INSTRUCTION] Explain the sulfur cycle in the environment
+[INSTRUCTION] Describe the human lymphatic system
+[INSTRUCTION] Write a change management procedure
+[INSTRUCTION] Explain the concept of microservices architecture
+[INSTRUCTION] Summarize the Scientific Revolution
+[INSTRUCTION] Describe the process of weathering and erosion
+[INSTRUCTION] Explain how caching improves performance
+[INSTRUCTION] Write a risk assessment document outline
+[INSTRUCTION] Compare different message queue systems
+[INSTRUCTION] Explain the oxygen cycle in ecosystems
+[INSTRUCTION] Describe the human integumentary system
+[INSTRUCTION] Write a software requirements specification
+[INSTRUCTION] Explain the difference between symmetric and asymmetric encryption
+[INSTRUCTION] Summarize the Enlightenment period
+[INSTRUCTION] Describe the formation of mountains
+[INSTRUCTION] Explain how garbage collection works
+[INSTRUCTION] Write a data governance policy outline
+[INSTRUCTION] Compare different logging and monitoring tools
+[INSTRUCTION] Explain the hydrological cycle in detail
+[INSTRUCTION] Describe the human urinary system
+[INSTRUCTION] Write an API documentation guide
+[INSTRUCTION] Explain the concept of eventual consistency
+[INSTRUCTION] Summarize the Protestant Reformation
+[INSTRUCTION] Describe the formation of volcanoes
+[INSTRUCTION] Explain how service discovery works
+[INSTRUCTION] Write a compliance audit checklist
+[INSTRUCTION] Compare different container orchestration platforms
+[INSTRUCTION] Explain the biogeochemical cycles overview
+[INSTRUCTION] Describe the human reproductive system
+[INSTRUCTION] Write a penetration testing report template
+[INSTRUCTION] Explain the CAP theorem in distributed systems
+[INSTRUCTION] Summarize the Agricultural Revolution
+[INSTRUCTION] Describe the formation of earthquakes
+[INSTRUCTION] Explain how circuit breakers work in software
+[INSTRUCTION] Write a vendor evaluation criteria document
+
+# =============================================================================
+# CODE (125 prompts) - Programming and technical content
+# =============================================================================
+
+[CODE] def fibonacci(n):
+[CODE] class DatabaseConnection:
+[CODE] import pandas as pd\n\ndef load_data(path):
+[CODE] async def fetch_url(url):
+[CODE] # Binary search implementation\ndef binary_search(arr, target):
+[CODE] def quicksort(arr):
+[CODE] class LinkedList:
+[CODE] def merge_sort(arr):
+[CODE] class BinaryTree:
+[CODE] def depth_first_search(graph, start):
+[CODE] class HashMap:
+[CODE] def breadth_first_search(graph, start):
+[CODE] class Stack:
+[CODE] def dijkstra(graph, start):
+[CODE] class Queue:
+[CODE] def dynamic_programming_knapsack(weights, values, capacity):
+[CODE] class Heap:
+[CODE] def a_star_search(graph, start, goal):
+[CODE] class Graph:
+[CODE] def topological_sort(graph):
+[CODE] class Trie:
+[CODE] def longest_common_subsequence(s1, s2):
+[CODE] class LRUCache:
+[CODE] def edit_distance(s1, s2):
+[CODE] class BloomFilter:
+[CODE] def matrix_multiplication(A, B):
+[CODE] class DisjointSet:
+[CODE] def convex_hull(points):
+[CODE] class SegmentTree:
+[CODE] def kruskal_mst(graph):
+[CODE] class FenwickTree:
+[CODE] def prim_mst(graph):
+[CODE] class RedBlackTree:
+[CODE] def bellman_ford(graph, start):
+[CODE] class AVLTree:
+[CODE] def floyd_warshall(graph):
+[CODE] class BTree:
+[CODE] def rabin_karp(text, pattern):
+[CODE] class SkipList:
+[CODE] def kmp_search(text, pattern):
+[CODE] class SuffixArray:
+[CODE] def manacher_palindrome(s):
+[CODE] class SuffixTree:
+[CODE] def z_algorithm(s):
+[CODE] def counting_sort(arr):
+[CODE] def radix_sort(arr):
+[CODE] def bucket_sort(arr):
+[CODE] def shell_sort(arr):
+[CODE] def heap_sort(arr):
+[CODE] def tim_sort(arr):
+[CODE] def interpolation_search(arr, target):
+[CODE] def exponential_search(arr, target):
+[CODE] def jump_search(arr, target):
+[CODE] def ternary_search(arr, target):
+[CODE] def fibonacci_search(arr, target):
+[CODE] class MinStack:
+[CODE] class MaxStack:
+[CODE] class MonotonicStack:
+[CODE] class Deque:
+[CODE] class CircularQueue:
+[CODE] class PriorityQueue:
+[CODE] class DoublyLinkedList:
+[CODE] class CircularLinkedList:
+[CODE] class SparseMatrix:
+[CODE] class AdjacencyMatrix:
+[CODE] class AdjacencyList:
+[CODE] class WeightedGraph:
+[CODE] class DirectedGraph:
+[CODE] class BipartiteGraph:
+[CODE] def is_bipartite(graph):
+[CODE] def find_bridges(graph):
+[CODE] def find_articulation_points(graph):
+[CODE] def strongly_connected_components(graph):
+[CODE] def tarjan_scc(graph):
+[CODE] def kosaraju_scc(graph):
+[CODE] def euler_path(graph):
+[CODE] def hamiltonian_path(graph):
+[CODE] def traveling_salesman(graph):
+[CODE] def minimum_spanning_tree(graph):
+[CODE] def maximum_flow(graph, source, sink):
+[CODE] def ford_fulkerson(graph, source, sink):
+[CODE] def edmonds_karp(graph, source, sink):
+[CODE] def dinic_algorithm(graph, source, sink):
+[CODE] def bipartite_matching(graph):
+[CODE] def hungarian_algorithm(cost_matrix):
+[CODE] def coin_change(coins, amount):
+[CODE] def longest_increasing_subsequence(arr):
+[CODE] def matrix_chain_multiplication(dims):
+[CODE] def optimal_bst(keys, freq):
+[CODE] def word_break(s, word_dict):
+[CODE] def palindrome_partitioning(s):
+[CODE] def egg_drop(eggs, floors):
+[CODE] def job_scheduling(jobs):
+[CODE] def activity_selection(activities):
+[CODE] def huffman_coding(freq):
+[CODE] def fractional_knapsack(items, capacity):
+[CODE] def interval_scheduling(intervals):
+[CODE] def task_scheduling(tasks):
+[CODE] def n_queens(n):
+[CODE] def sudoku_solver(board):
+[CODE] def word_search(board, word):
+[CODE] def generate_permutations(arr):
+[CODE] def generate_combinations(arr, k):
+[CODE] def generate_subsets(arr):
+[CODE] def generate_parentheses(n):
+[CODE] def letter_combinations(digits):
+[CODE] class UnionFind:
+[CODE] def find_cycle(graph):
+[CODE] def detect_negative_cycle(graph):
+[CODE] def shortest_path_dag(graph):
+[CODE] def all_pairs_shortest_path(graph):
+[CODE] def single_source_shortest_path(graph, source):
+[CODE] class TrieNode:
+[CODE] def autocomplete(trie, prefix):
+[CODE] def word_frequency(trie, word):
+[CODE] def pattern_matching(text, pattern):
+[CODE] def wildcard_matching(s, p):
+[CODE] def regex_matching(s, p):
+[CODE] def string_compression(s):
+[CODE] def string_rotation(s1, s2):
+[CODE] def anagram_groups(words):
+[CODE] def longest_palindrome(s):
+[CODE] def minimum_window_substring(s, t):
+[CODE] def sliding_window_maximum(nums, k):
+[CODE] def two_sum(nums, target):
+[CODE] def three_sum(nums):
+[CODE] def four_sum(nums, target):
+[CODE] def container_with_most_water(heights):
+[CODE] def trapping_rain_water(heights):
+[CODE] def largest_rectangle_histogram(heights):
+[CODE] def maximal_rectangle(matrix):
+
+# =============================================================================
+# QUESTIONS (125 prompts) - Factual and analytical questions
+# =============================================================================
+
+[QUESTION] What is the capital of France?
+[QUESTION] Who invented the telephone?
+[QUESTION] What causes earthquakes?
+[QUESTION] How does the internet work?
+[QUESTION] Why is the sky blue?
+[QUESTION] What is quantum computing?
+[QUESTION] How do airplanes fly?
+[QUESTION] What is photosynthesis?
+[QUESTION] Who wrote Romeo and Juliet?
+[QUESTION] What is the speed of light?
+[QUESTION] How do vaccines work?
+[QUESTION] What causes climate change?
+[QUESTION] Who discovered penicillin?
+[QUESTION] What is the theory of evolution?
+[QUESTION] How does memory work in the brain?
+[QUESTION] What is artificial intelligence?
+[QUESTION] Who painted the Mona Lisa?
+[QUESTION] What is the greenhouse effect?
+[QUESTION] How do computers process information?
+[QUESTION] What is the structure of DNA?
+[QUESTION] Who invented the printing press?
+[QUESTION] What causes seasons on Earth?
+[QUESTION] How does the stock market work?
+[QUESTION] What is the Big Bang theory?
+[QUESTION] Who discovered gravity?
+[QUESTION] What is the water cycle?
+[QUESTION] How do electric cars work?
+[QUESTION] What is machine learning?
+[QUESTION] Who built the pyramids?
+[QUESTION] What causes hurricanes?
+[QUESTION] How does the human heart work?
+[QUESTION] What is cryptocurrency?
+[QUESTION] Who invented the light bulb?
+[QUESTION] What is plate tectonics?
+[QUESTION] How do search engines work?
+[QUESTION] What is the immune system?
+[QUESTION] Who discovered electricity?
+[QUESTION] What causes volcanic eruptions?
+[QUESTION] How does GPS technology work?
+[QUESTION] What is the periodic table?
+[QUESTION] Who invented the automobile?
+[QUESTION] What is the carbon cycle?
+[QUESTION] How do black holes form?
+[QUESTION] What is nuclear energy?
+[QUESTION] Who wrote the Declaration of Independence?
+[QUESTION] What causes rainbows?
+[QUESTION] How does 3D printing work?
+[QUESTION] What is the theory of relativity?
+[QUESTION] Who discovered America?
+[QUESTION] What is the nitrogen cycle?
+[QUESTION] How do solar panels work?
+[QUESTION] What is genetic engineering?
+[QUESTION] Who invented the internet?
+[QUESTION] What causes thunder and lightning?
+[QUESTION] How does the digestive system work?
+[QUESTION] What is blockchain technology?
+[QUESTION] Who composed Beethoven's 9th Symphony?
+[QUESTION] What is the ozone layer?
+[QUESTION] How do antibiotics work?
+[QUESTION] What is the scientific method?
+[QUESTION] Who invented the airplane?
+[QUESTION] What causes tides in the ocean?
+[QUESTION] How does wireless charging work?
+[QUESTION] What is the nervous system?
+[QUESTION] Who discovered X-rays?
+[QUESTION] What is the rock cycle?
+[QUESTION] How do touchscreens work?
+[QUESTION] What is the respiratory system?
+[QUESTION] Who invented the telescope?
+[QUESTION] What causes auroras?
+[QUESTION] How does cloud computing work?
+[QUESTION] What is the endocrine system?
+[QUESTION] Who discovered radioactivity?
+[QUESTION] What is the food chain?
+[QUESTION] How do batteries work?
+[QUESTION] What is the circulatory system?
+[QUESTION] Who invented the microscope?
+[QUESTION] What causes tornadoes?
+[QUESTION] How does facial recognition work?
+[QUESTION] What is the lymphatic system?
+[QUESTION] Who discovered the structure of atoms?
+[QUESTION] What is the electromagnetic spectrum?
+[QUESTION] How do noise-canceling headphones work?
+[QUESTION] What is the musculoskeletal system?
+[QUESTION] Who invented radar?
+[QUESTION] What causes meteors?
+[QUESTION] How does voice recognition work?
+[QUESTION] What is the excretory system?
+[QUESTION] Who discovered vitamins?
+[QUESTION] What is the phosphorus cycle?
+[QUESTION] How do self-driving cars work?
+[QUESTION] What is the integumentary system?
+[QUESTION] Who invented the refrigerator?
+[QUESTION] What causes sinkholes?
+[QUESTION] How does encryption work?
+[QUESTION] What is the reproductive system?
+[QUESTION] Who discovered blood types?
+[QUESTION] What is the sulfur cycle?
+[QUESTION] How do drones work?
+[QUESTION] What is the sensory system?
+[QUESTION] Who invented air conditioning?
+[QUESTION] What causes avalanches?
+[QUESTION] How does machine translation work?
+[QUESTION] What is the vestibular system?
+[QUESTION] Who discovered insulin?
+[QUESTION] What is the oxygen cycle?
+[QUESTION] How do fitness trackers work?
+[QUESTION] What is the autonomic nervous system?
+[QUESTION] Who invented the washing machine?
+[QUESTION] What causes landslides?
+[QUESTION] How does image recognition work?
+[QUESTION] What is the somatic nervous system?
+[QUESTION] Who discovered anesthesia?
+[QUESTION] What is the hydrological cycle?
+[QUESTION] How do smart speakers work?
+[QUESTION] What is the parasympathetic nervous system?
+[QUESTION] Who invented the sewing machine?
+[QUESTION] What causes floods?
+[QUESTION] How does sentiment analysis work?
+[QUESTION] What is the sympathetic nervous system?
+[QUESTION] Who discovered chromosomes?
+[QUESTION] What is ecosystem dynamics?
+[QUESTION] How do recommendation algorithms work?
