@@ -39,6 +39,18 @@ kvcis/
 └── README.md
 ```
 
+## Dataset
+
+The training dataset consists of 500 diverse instruction-following prompts processed through Llama-3.1-8B-Instruct. For each prompt, ground-truth token importance labels are computed by aggregating attention weights across all generated tokens and attention heads (as defined in Equation 1 of the paper). Importance scores are normalized per-sequence before probe training.
+
+- **Size:** 500 prompts for probe training; 19–100 held-out texts for perplexity evaluation; 50 samples each for NarrativeQA and Passkey Retrieval
+- **Format:** JSON (activations as numpy arrays, importance scores as floats)
+- **Generation:** Produced by running `step2_collect_data.py` against Llama-3.1-8B-Instruct
+- **License:** Apache 2.0
+- **DOI:** https://doi.org/10.5281/zenodo.19078457
+
+No external datasets are required. All training data is generated programmatically from the model.
+
 ## Quick Start
 
 ### Requirements
@@ -51,7 +63,7 @@ kvcis/
 ### Installation
 
 ```bash
-git clone https://github.com/your-username/kvcis.git
+git clone https://github.com/glenfmessenger/kvcis.git
 cd kvcis
 pip install -r code/requirements.txt
 ```
