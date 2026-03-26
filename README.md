@@ -159,3 +159,7 @@ Importance ≤ 0.9  →  int8 (quantized)
 ## License
 
 Apache 2.0
+
+## Contributing
+
+This repository is provided for research reproducibility. Issues and questions welcome via GitHub Issues.
